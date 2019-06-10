@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+services: mongodb
+env: MONGODB_URI=mongodb://localhost:27017/notes
+deploy:
+  provider: heroku
+  app: alchemy-notes
+  api_key:
+    secure: 

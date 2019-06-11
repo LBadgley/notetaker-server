@@ -10,7 +10,7 @@ describe('notes routes', () => {
   });
 
   beforeEach(() => {
-    return mongoose.connect.dropDatabase();
+    return mongoose.connection.dropDatabase();
   });
 
   afterAll(() => {

@@ -27,7 +27,7 @@ describe('notes routes', () => {
           title: 'the title',
           body: 'the body of the note',
           __v: 0
-        });
+        })
       });
   });
 });

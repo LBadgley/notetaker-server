@@ -28,6 +28,6 @@ describe('notes routes', () => {
           body: 'the body of the note',
           __v: 0
         });
-      });
+      })
   });
 });

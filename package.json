@@ -28,7 +28,9 @@
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
     "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.5.1",
     "mongoose": "^5.5.14",
     "superagent": "^5.0.6"
   },
